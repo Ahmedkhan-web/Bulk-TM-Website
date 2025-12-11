@@ -3,31 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 }
+
 header{
     background-color: black;
     text-align: center;
     padding: 6.5px;
     font-weight: 400;
 }
+
 .navbar-1{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     padding: 30px 20px;
     align-items: center;
 }
-.navbar-1 form input {
+
+.search-box{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    pointer-events: none;
+}
+
+.search-box input{
     width: 800px;
     height: 40px;
     border-radius: 30px;
-    padding: 25px 20px;
+    padding: 25px 45px; 
     border: none;
-    background-color: #fafafa;
-    font-weight: bold;
+    background-color: #f5f3f3;
+    font-size: 1rem;
 }
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* Navbar Ended */
 
 
